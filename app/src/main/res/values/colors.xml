@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="indicator_inactive_color">#E6E6E6</color>
+    <color name="indicator_stroke_color">#FF6B6B</color>
 </resources>

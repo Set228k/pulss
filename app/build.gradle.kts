@@ -36,9 +36,11 @@ android {
     buildFeatures {
         viewBinding = true
     }
-    }
+}
 
 dependencies {
+    implementation(libs.material.v120alpha05)
+    implementation("com.tbuonomo:dotsindicator:4.3")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

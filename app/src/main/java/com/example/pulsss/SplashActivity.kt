@@ -1,5 +1,6 @@
 package com.example.pulsss
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -35,7 +36,7 @@ class SplashActivity : AppCompatActivity() {
                     handler.postDelayed(this, 100)
                 } else {
                     // Завершение активности
-                    startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                    startActivity(Intent(this@SplashActivity, OnboardingActivity::class.java))
                     finish()
                 }
             }

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Pulsss"
         tools:targetApi="31">
 
-        <!-- Добавляем SplashActivity -->
+        <!-- Оголошення SplashActivity -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -23,6 +23,12 @@
             </intent-filter>
         </activity>
 
+        <!-- Оголошення OnboardingActivity -->
+        <activity
+            android:name="OnboardingActivity"
+            android:exported="true"/>
+
+        <!-- Оголошення MainActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
